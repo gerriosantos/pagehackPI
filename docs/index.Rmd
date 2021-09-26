@@ -53,7 +53,7 @@ knitr::include_graphics(path = 'fig1.gif')
 background-image: url(folhas.png)
 background-size: cover
 
-### E tal problemática pode ser considerado do tamanho da galáxia.
+### E tal problemática pode ser considerada do tamanho da galáxia.
 
 ```{r, echo=FALSE, out.width = '65%', out.height='70%', fig.align='center'}
 knitr::include_graphics(path = 'fig11.gif')
