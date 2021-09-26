@@ -1,0 +1,110 @@
+---
+title: "HackPI Ceará 2021"
+author: ""
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    css: ["xaringan-themer.css"]
+    self_contained: true
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+background-image: url(folhas.png)
+background-size: cover
+```{r xaringan-themer, include=FALSE, warning=FALSE, fig.width = 4.5, fig.height = 3, dpi=300}
+
+library(xaringanthemer)
+
+style_xaringan(
+  text_color = '#000',
+  header_color = 'black',
+  background_image = 'capa.png',
+  #header_background_color = 'blue',
+  text_slide_number_font_size = NULL, 
+  #padding = '1em', '4em', '1em', '4em',
+  #title_slide_background_color = color_principal,
+  header_background_padding = ,
+
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  inverse_background_color = 'white',
+  inverse_text_color = "#0B3B0B",
+  inverse_text_shadow = TRUE,
+  title_slide_background_position = 'top'
+)
+
+```
+
+### Municípios, professores, pais e sociedade em geral não têm acesso a ferramentas de análises.
+
+
+```{r, echo=FALSE, out.width = '65%', out.height='70%', fig.align='center'}
+knitr::include_graphics(path = 'fig1.gif')
+```
+
+
+---
+background-image: url(folhas.png)
+background-size: cover
+
+### E tal problemática pode ser considerado do tamanho da galáxia.
+
+```{r, echo=FALSE, out.width = '65%', out.height='70%', fig.align='center'}
+knitr::include_graphics(path = 'fig11.gif')
+```
+
+
+---
+background-image: url(folhas.png)
+background-size: cover
+
+### Importante juntar as evidências necessárias para desenhar políticas públicas de qualidade.
+
+```{r, echo=FALSE, out.width = '65%', out.height='70%', fig.align='center'}
+knitr::include_graphics(path = 'fig2.gif')
+```
+
+---
+background-image: url(folhas.png)
+background-size: cover
+
+### Artigos científicos, televisão e sites com análises complexas.
+
+```{r, echo=FALSE, out.width = '65%', out.height='70%', fig.align='center'}
+knitr::include_graphics(path = 'fig3.gif')
+```
+
+---
+background-image: url(folhas.png)
+background-size: cover
+
+### A melhor solução pode ser a mais simples.
+
+```{r, echo=FALSE, out.width = '65%', out.height='70%', fig.align='center'}
+knitr::include_graphics(path = 'solucao.gif')
+```
+
+---
+
+background-image: url(folhas.png)
+background-size: cover
+
+```{r, echo=FALSE, out.width = '100%', out.height='100%', fig.align='center'}
+knitr::include_graphics(path = 'Capturar.png')
+```
+
+---
+
+
+```{r, echo=FALSE, out.width = '100%', out.height='100%', fig.align='center'}
+knitr::include_graphics(path = 'miniongif.gif')
+```
+
+
+
